@@ -75,13 +75,13 @@
 *  blue line example : Time per request:       21.545 [ms] (mean) 
 *  red line example : Time per request:       0.215 [ms] (mean, across all concurrent requests)
 
-####   get request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
+####  the gin web server, clients get request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
 ![ginget](result/gin_get.gif)
 
-#### when get request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
+#### the tornado web server when clients get request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
 ![tornadoget](result/tornado_get.gif)
 
-#### when request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
+#### comparative connection total times: when request number raise from 1000 to 500000 (with Concurrent 20 to 1000)
 ![comp_gin_with_tornado](result/comp_gin_tornado_total.gif)
 
 
