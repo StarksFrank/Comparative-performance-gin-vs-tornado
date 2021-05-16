@@ -53,14 +53,14 @@
     apacha ab test branch
 
 ## execute case 
-* 	ab  -n 1000 -c 20 url   # Concurrent 20， 1000 times get
+* 	-n 1000 -c 20 url   # Concurrent 20， 1000 times get
 
-* 	ab  -n 10000 -c 50 url   # Concurrent 50， 10000 times get
-* 	ab  -n 10000 -c 100 url   # Concurrent 100， 10000 times get		 
+* 	-n 10000 -c 50 url   # Concurrent 50， 10000 times get
+* 	-n 10000 -c 100 url   # Concurrent 100， 10000 times get		 
 
-* 	ab  -n 10000 -c 500 url  # Concurrent 500， 10000 times get		
-* 	ab  -n 50000 -c 500 url	  # Concurrent 500， 50000 times get	
-* 	ab  -n 50000 -c 1000 url  # Concurrent 1000， 50000 times get	
+* 	-n 10000 -c 500 url  # Concurrent 500， 10000 times get		
+* 	-n 50000 -c 500 url	  # Concurrent 500， 50000 times get	
+* 	-n 50000 -c 1000 url  # Concurrent 1000， 50000 times get	
 
 *  methods: post  -p -T , example: -p  test.json -T x-www-form-urlencoded;charset=UTF-8   
 
